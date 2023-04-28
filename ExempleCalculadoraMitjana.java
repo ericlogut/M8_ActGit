@@ -14,7 +14,7 @@ public class ExempleCalculadoraMitjana {
         CalculadoraMitjana calculadora = new CalculadoraMitjana();
         double mitjana = calculadora.calcularMitjana(numeros);
 
-        System.out.println("La mitjana és " + mitjana);
+        System.out.println("La mitjana dels nombres és " + mitjana);
     }
 
 }

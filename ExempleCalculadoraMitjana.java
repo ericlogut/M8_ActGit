@@ -5,11 +5,11 @@ public class ExempleCalculadoraMitjana {
 
     public static void main(String[] args) {
         List<Double> numeros = new ArrayList<Double>();
-        numeros.add(1.0);
-        numeros.add(2.0);
-        numeros.add(3.0);
-        numeros.add(4.0);
-        numeros.add(5.0);
+        numeros.add(10.0);
+        numeros.add(20.0);
+        numeros.add(30.0);
+        numeros.add(40.0);
+        numeros.add(50.0);
 
         CalculadoraMitjana calculadora = new CalculadoraMitjana();
         double mitjana = calculadora.calcularMitjana(numeros);
